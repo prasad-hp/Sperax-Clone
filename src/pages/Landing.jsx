@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import LandingScreenOne from '../components/LandingScreenOne'
 import Investor from '../components/Investor'
 import LandingScreenTwo from '../components/LandingScreenTwo'
+import LandingScreenThree from '../components/LandingScreenThree'
 
 function Landing() {
   return (
@@ -17,6 +18,7 @@ function Landing() {
         </section>
         <section className='w-full flex items-center flex-col'>
             <LandingScreenTwo />
+            <LandingScreenThree />
         </section>
         </div>
     </div>
