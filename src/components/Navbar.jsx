@@ -2,9 +2,9 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <div className='w-full pt-5'>
-        <div className='flex justify-between'>
-            <div className='flex space-x-4 items-center'>
+    <div className='w-full flex justify-center pt-5'>
+        <div className='flex w-8/12 justify-between'>
+            <div className='flex space-x-4 items-center'>   
                 <a href="/" className='hover:cursor-pointer'>
                     <img src="../../SperaxLogo.svg" alt="SperaxLogo" /> 
                 </a>
@@ -14,18 +14,18 @@ function Navbar() {
             </div>
             <div className='flex space-x-5 items-center justify-end'>
                 <a href="">
-                    <img src="../../discord.svg" alt="Discord Icon" />
+                    <img src="../../discord.svg" alt="Discord Icon" className='hover:scale-110 transition duration-150'/>
                 </a>
                 <a href="">
-                    <img src="../../telegram.svg" alt="Telegram Icon" />
+                    <img src="../../telegram.svg" alt="Telegram Icon" className='hover:scale-110 transition duration-150'/>
                 </a>
                 <a href="">
-                    <img src="../../twitter.svg" alt="Twitter Icon" />
+                    <img src="../../twitter.svg" alt="Twitter Icon" className='hover:scale-110 transition duration-150'/>
                 </a>
                 <a href="">
-                    <img src="../../subStack.svg" alt="Substack Icon" />
+                    <img src="../../subStack.svg" alt="Substack Icon" className='hover:scale-110 transition duration-150'/>
                 </a>
-                <button className='rounded-full bg-blue-400 text-white h-12 w-36 text-sm hover:cursor-pointer hover:bg-blue-500 hover:text-gray-50'>Launch App</button>
+                <button className="bg-cyan-500 text-white text-sm py-2 px-4 rounded hover:bg-cyan-600">Launch App</button>
             </div>
         </div>
     </div>
