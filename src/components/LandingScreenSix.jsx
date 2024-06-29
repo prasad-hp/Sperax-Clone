@@ -7,7 +7,7 @@ function LandingScreenSix() {
         <div className='flex flex-col items-center justify-center text-white text-center'>
             <h1 className='text-6xl font-medium'>Governance</h1>
             <h3 className='font-light text-xl w-7/12 py-8'>Sperax Ecosystem is Governed by Community of SPA Stakers or veSPA Holders.</h3>
-          <div className='flex space-x-5 w-full'>
+          <div className='grid lg:grid-rows-1 lg:grid-cols-2 grid-rows-2 gap-5 w-full'>
             <HorCardSnSix image={"../../speraxforum.svg"} alt={"Sperax Icon"} heading={"Sperax Forum"} desc={"Governance Category in the Forum is used for governance proposal discussion."} link={"Go to Forum"}/>
             <HorCardSnSix image={"../../snapshot.svg"} alt={"Snapshot Icon"} heading={"Snapshot"} desc={"Snapshot polls are used to gauge community sentiment around the proposals."} link={"Go to Snapshot"}/>
           </div>

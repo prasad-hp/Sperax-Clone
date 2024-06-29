@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <footer className='w-8/12 text-white '>
-        <div className='w-full flex items-center justify-center h-screen'>
+        <div className='w-full flex lg:items-center items-start justify-center lg:h-screen'>
             <section className='w-1/2 flex-col flex justify-start'>
                 <div className='flex justify-start space-x-3 my-5'>
                     <img src="../../SperaxLogo.svg" alt="SperaxLogo" />
@@ -30,9 +30,9 @@ function Footer() {
                     <input type="submit" className='text-sm font-semibold rounded-full bg-cyan-500 w-28 h-10 m-2 text-white hover:cursor-pointer'/>
                  </form>
             </section>
-            <section className='w-1/2 pl-20 flex justify-end items-start'>
-                <section className='w-1/2 flex flex-col items-start justify-start space-y-24'>
-                    <div className='flex flex-col items-start space-y-7'>
+            <section className='w-1/2 pl-20 lg:flex justify-end items-start'>
+                <section className='w-1/2 flex flex-col items-start justify-start lg:space-y-24 space-y-5'>
+                    <div className='flex flex-col items-start lg:space-y-7 space-y-2'>
                         <h4 className='text-lg font-medium'>
                             Governance
                         </h4>
@@ -43,7 +43,7 @@ function Footer() {
                             Snapshot
                         </h5>
                     </div>
-                    <div className='flex flex-col items-start space-y-7'>
+                    <div className='flex flex-col items-start lg:space-y-7 space-y-2'>
                         <h4 className='text-lg font-medium'>
                         Resources
                         </h4>
@@ -55,8 +55,8 @@ function Footer() {
                         </h5>
                     </div>
                 </section>
-                <section className='w-1/2 flex flex-col items-start justify-start space-y-24'>
-                        <div className='flex flex-col items-start space-y-7'>
+                <section className='w-1/2 flex flex-col items-start justify-start lg:space-y-24 space-y-5'>
+                        <div className='flex flex-col items-start lg:space-y-7 space-y-2'>
                             <h4 className='text-lg font-medium'>
                             Terms and Conditions
                             </h4>
@@ -67,7 +67,7 @@ function Footer() {
                             Privacy Policy
                             </h5>
                         </div>
-                        <div className='flex flex-col items-start space-y-7'>
+                        <div className='flex flex-col items-start lg:space-y-7 space-y-2'>
                             <h4 className='text-lg font-medium'>
                             Developers
                             </h4>
@@ -75,11 +75,11 @@ function Footer() {
                             GitHub
                             </h5>
                         </div>
-                        <div className='flex flex-col items-start space-y-7'>
+                        <div className='flex flex-col items-start lg:space-y-7 space-y-2'>
                             <h4 className='text-lg font-medium'>
                             Contact Us
                             </h4>
-                            <h5 className='font-light text-sm'>
+                            <h5 className='font-light text-sm pb-5 lg:pb-0'>
                             contact@sperax.io
                             </h5>
                         </div>

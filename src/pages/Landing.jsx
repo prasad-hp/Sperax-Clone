@@ -13,9 +13,9 @@ import Footer from '../components/Footer'
 function Landing() {
   
   return (
-    <div className='w-screen bg-gray-800 flex justify-center'>
+    <div className='w-screen bg-new-gray flex justify-center'>
         <div className='w-full flex items-center flex-col'>
-        <section className='h-screen flex items-center flex-col '>
+        <section className='lg:h-screen flex items-center flex-col '>
             <Navbar />
             <LandingScreenOne />
         </section>
