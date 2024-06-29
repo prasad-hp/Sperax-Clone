@@ -2,7 +2,7 @@ import React from 'react'
 
 function SquareCard(props) {
   return (
-    <div className='bg-gray-600 rounded-3xl text-white p-10 w-1/2'>
+    <div className='bg-gray-600 rounded-3xl text-white px-10 pt-10 w-1/2'>
         <h1 className='text-4xl font-semibold'>{props.heading}</h1>
         <h3 className='font-light text-lg py-5'>{props.description}</h3>
         <div className='flex items-center space-x-8 py-3'>
