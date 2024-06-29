@@ -5,6 +5,7 @@ import Investor from '../components/Investor'
 import LandingScreenTwo from '../components/LandingScreenTwo'
 import LandingScreenThree from '../components/LandingScreenThree'
 import LandingScreenFour from '../components/LandingScreenFour'
+import LandingScreenFive from '../components/LandingScreenFive'
 
 function Landing() {
   
@@ -22,6 +23,7 @@ function Landing() {
             <LandingScreenTwo />
             <LandingScreenThree />
             <LandingScreenFour />
+            <LandingScreenFive />
         </section>
         </div>
     </div>
