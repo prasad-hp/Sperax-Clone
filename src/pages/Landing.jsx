@@ -6,6 +6,8 @@ import LandingScreenTwo from '../components/LandingScreenTwo'
 import LandingScreenThree from '../components/LandingScreenThree'
 import LandingScreenFour from '../components/LandingScreenFour'
 import LandingScreenFive from '../components/LandingScreenFive'
+import LandingScreenSix from '../components/LandingScreenSix'
+import LandingScreenSeven from '../components/LandingScreenSeven'
 
 function Landing() {
   
@@ -24,6 +26,8 @@ function Landing() {
             <LandingScreenThree />
             <LandingScreenFour />
             <LandingScreenFive />
+            <LandingScreenSix />
+            <LandingScreenSeven />
         </section>
         </div>
     </div>
