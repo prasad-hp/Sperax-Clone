@@ -8,6 +8,7 @@ import LandingScreenFour from '../components/LandingScreenFour'
 import LandingScreenFive from '../components/LandingScreenFive'
 import LandingScreenSix from '../components/LandingScreenSix'
 import LandingScreenSeven from '../components/LandingScreenSeven'
+import Footer from '../components/Footer'
 
 function Landing() {
   
@@ -28,6 +29,7 @@ function Landing() {
             <LandingScreenFive />
             <LandingScreenSix />
             <LandingScreenSeven />
+            <Footer />
         </section>
         </div>
     </div>
