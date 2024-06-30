@@ -2,7 +2,7 @@ import React from 'react'
 
 function HorizonatalCard() {
   return (
-    <div className='bg-gray-600 rounded-3xl w-full pt-10 lg:px-10 px-5 lg:flex lg:justify-betweens inline-block my-10 lg:h-80 h-auto'>
+    <div className='bg-new-cement rounded-3xl w-full pt-10 lg:px-10 px-5 lg:flex lg:justify-betweens inline-block my-10 lg:h-80 h-auto'>
         <div className='text-white'>
             <h1 className='text-4xl font-semibold'>Stake SPA</h1>
             <h3 className='font-light text-lg py-5'>Stake SPA to receive protocol fees, share of USDs auto-yield and staking incentives</h3>

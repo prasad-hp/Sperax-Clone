@@ -37,7 +37,7 @@ function LandingScreenSeven() {
                     <img src="../../audited.svg" alt="Autited" />
                     <h3 className='text-2xl py-2 text-center'>Audited & Verified</h3>
                     <h1 className='text-5xl font-semibold pt-2 pb-5 text-center'>The most secure protocol for money</h1>
-                    <div className='flex lg:flex-row flex-col space-y-3 items-center justify-center w-full px-10 py-10 space-x-4'>
+                    <div className='flex lg:flex-row flex-col space-y-3 items-center justify-center w-full lg:px-10 py-10 space-x-4'>
                         <img src="../../quantstamp.svg" alt="quantstamp" />
                         <img src="../../slowmist.svg" alt="slowmist" />
                         <img src="../../certik.svg" alt="certik" />
