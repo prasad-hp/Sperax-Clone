@@ -13,7 +13,7 @@ function LandingScreenSix() {
           </div>
             <h2 className='text-3xl font-medium py-8 pt-16'>The Governance Process</h2> 
           <div className='w-full md:inline-block hidden'>
-            <div className='flex justify-between items-center py-2 xl:px-10 md:px-5 rounded-3xl bg-gray-600'>
+            <div className='flex justify-between items-center py-2 xl:px-10 md:px-5 rounded-3xl bg-new-cement h-32'>
               <div className='flex justify-start items-center lg:space-x-3 space-x-1'>
                 <img src="../../governance.svg" alt="Governance" className='w-20'/>
                 <div className='flex flex-col items-start justify-center space-y-2'>
@@ -64,7 +64,7 @@ function LandingScreenSix() {
               <div>
               </div>
             </div>
-              <button className='w-3/4 mt-3 bg-new-blue rounded-full h-12 font-medium text-white hover:bg-cyan-700 hover:text-gray-300 hover:cursor-pointer flex items-center justify-center'>Learn more →</button>
+              <button className='w-3/4 mt-8 bg-new-blue rounded-full h-12 font-medium text-white hover:bg-cyan-700 hover:text-gray-300 hover:cursor-pointer flex items-center justify-center'>Learn more →</button>
           </div>
           </div>
         </div>
