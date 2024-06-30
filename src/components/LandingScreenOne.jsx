@@ -9,7 +9,7 @@ function LandingScreenOne() {
                 <p className="mb-6 text-gray-200 text-left font-sans font-thin text-base">
                     Sperax USD (USDs) is the primary protocol under the Sperax ecosystem. USDs is a fully collateralized stablecoin backed by on-chain collateral and generates organic yield for its holders. USDs aims to be the premiere trading pair on all L2 chains.
                 </p>
-                <button className="bg-cyan-500 text-white text-sm py-2 px-4 rounded mb-6 text-left">Get USDs</button>
+                <button className='bg-transparent border border-new-blue text-white rounded-full h-12 w-1/4 mt-2'>Get USDs→</button>
                 <div className="flex justify-around mt-5 space-x-3">
                     <div className='flex flex-col items-start w-5/12'>
                         <div className='flex items-center justify-start space-x-2'>
@@ -41,7 +41,7 @@ function LandingScreenOne() {
                 <h1 className='text-4xl font-semibold text-center'>Stablecoin with built-in Auto-Yield on Arbitrum</h1>
                 <p className='font-light py-5'>Sperax USD (USDs) is the primary protocol under the Sperax ecosystem. USDs is a fully collateralized stablecoin backed by on-chain collateral and generates organic yield for its holders. USDs aims to be the premieretrading pair on all L2 chains.</p>
                 <button className='bg-new-blue text-white rounded-full h-14 w-1/2 my-2'>Launch App</button>
-                <button className='bg-transparent border border-new-blue text-white rounded-full h-14 w-1/2 mt-2'>Launch App</button>
+                <button className='bg-transparent border border-new-blue text-white rounded-full h-14 w-1/2 mt-2'>Get USDs→</button>
             </div>
             <img src="../../speraxImgBg.svg" alt="Sperax Icon" className=''/>
         </section>

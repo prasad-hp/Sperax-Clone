@@ -76,7 +76,7 @@ function Footer() {
                             </h5>
                         </div>
                         <div className='flex flex-col items-start lg:space-y-7 space-y-2'>
-                            <h4 className='text-lg font-medium'>
+                            <h4 className='text-lg font-med ium'>
                             Contact Us
                             </h4>
                             <h5 className='font-light text-sm pb-5 lg:pb-0'>
