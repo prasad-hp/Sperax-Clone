@@ -47,9 +47,9 @@ function LandingScreenTwo() {
             <p>collateral to audited DeFi protocols, managed via</p>
             <p>governance</p>
           </div>
-          <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8 py-5">
-            <button className="w-48 bg-cyan-500 rounded-full h-14 font-semibold text-white hover:bg-cyan-700 hover:text-gray-300 hover:cursor-pointer">Get USDs Token</button>
-            <button className="w-48 bg-cyan-500 rounded-full h-14 font-semibold text-white hover:bg-cyan-700 hover:text-gray-300 hover:cursor-pointer">Get SPA Token</button>
+          <div className="flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-8 py-5">
+            <button className="md:w-48 w-3/4 bg-new-blue rounded-full h-14 font-semibold text-white hover:bg-cyan-700 hover:text-gray-300 hover:cursor-pointer">Get USDs Token</button>
+            <button className="md:w-48 w-3/4 bg-new-blue rounded-full h-14 font-semibold text-white hover:bg-cyan-700 hover:text-gray-300 hover:cursor-pointer">Get SPA Token</button>
           </div>
         </section>
       </div>
