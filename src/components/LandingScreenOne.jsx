@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import WhiteCard from './WhiteCard'
 
 function LandingScreenOne() {
-    const [cardDisplay, setCardDisplay] = useState(false)
+    const [cardDisplay, setCardDisplay] = useState(true)
 
     function toggleCard(){
         setCardDisplay(!cardDisplay)
@@ -80,7 +80,9 @@ function LandingScreenOne() {
                 </div>
             </section>
         </div>
-        <WhiteCard display = {cardDisplay}/>
+        <div className='transition duration-300'>
+            <WhiteCard display = {cardDisplay}/>
+        </div>
       </div>
     
   )
