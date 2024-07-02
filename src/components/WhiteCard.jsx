@@ -34,7 +34,7 @@ function WhiteCard(props) {
                 <img src="../../transak.png" alt="Transak" className='w-7'/>
                 <span className='text-sm font-semibold text-gray-600'>Transak</span>
               </span>
-              <a href="#" className="text-new-blue text-xs font-semibold flex items-center">
+              <a href="/" className="text-new-blue text-xs font-semibold flex items-center">
                 <img src="../../arrow-up-right.svg" alt="arrow" className='h-5 pr-2'/>
                 BUY</a>
             </div>
@@ -43,7 +43,7 @@ function WhiteCard(props) {
               <img src="../../onmeta-logo.png" alt="Transak" className='w-6'/>
               <span className='text-sm font-semibold text-gray-600'>Onmeta (INR/PHP)</span>
             </span>
-              <a href="#" className="text-new-blue text-xs font-semibold flex items-center">
+              <a href="/" className="text-new-blue text-xs font-semibold flex items-center">
                 <img src="../../arrow-up-right.svg" alt="arrow" className='h-5 pr-2'/>
                 BUY</a>
             </div>
@@ -57,7 +57,7 @@ function WhiteCard(props) {
             <img src="../../coinbase.svg" alt="Coinbase" className='w-5'/>
               <span className='text-sm font-semibold text-gray-600'> Coinbase.com</span>
               </span>
-              <a href="#" className="text-new-blue text-xs font-semibold flex items-center">
+              <a href="/" className="text-new-blue text-xs font-semibold flex items-center">
                 <img src="../../arrow-up-right.svg" alt="arrow" className='h-5 pr-2'/>
                 BUY</a>
             </div>
@@ -66,7 +66,7 @@ function WhiteCard(props) {
             <img src="../../gateio.svg" alt="gateio" className='w-5'/>
               <span className='text-sm font-semibold text-gray-600'>Gate.io</span>
             </span>
-              <a href="#" className="text-new-blue text-xs font-semibold flex items-center">
+              <a href="/" className="text-new-blue text-xs font-semibold flex items-center">
                 <img src="../../arrow-up-right.svg" alt="arrow" className='h-5 pr-2'/>
                 BUY</a>
             </div>
@@ -75,7 +75,7 @@ function WhiteCard(props) {
             <img src="../../huobi.png" alt="Huobi" className='w-5'/>
               <span className='text-sm font-semibold text-gray-600'>Huobi</span>
               </span>
-              <a href="#" className="text-new-blue text-xs font-semibold flex items-center">
+              <a href="/" className="text-new-blue text-xs font-semibold flex items-center">
                 <img src="../../arrow-up-right.svg" alt="arrow" className='h-5 pr-2'/>
                 BUY</a>
             </div>
@@ -84,7 +84,7 @@ function WhiteCard(props) {
             <img src="../../kucoin.svg" alt="kucoin" className='w-5'/>
               <span className='text-sm font-semibold text-gray-600'>Kucoin</span>
             </span>
-              <a href="#" className="text-new-blue text-xs font-semibold flex items-center">
+              <a href="/" className="text-new-blue text-xs font-semibold flex items-center">
                 <img src="../../arrow-up-right.svg" alt="arrow" className='h-5 pr-2'/>
                 BUY</a>
             </div>
@@ -99,7 +99,7 @@ function WhiteCard(props) {
               <span className='text-sm font-semibold text-gray-600'> Uniswap | USDC.e-USDs
                 </span>
               </span>
-              <a href="#" className="text-new-blue text-xs font-semibold flex items-center">
+              <a href="/" className="text-new-blue text-xs font-semibold flex items-center">
                 <img src="../../arrow-up-right.svg" alt="arrow" className='h-5 pr-2'/>
                 BUY</a>
             </div>
@@ -109,7 +109,7 @@ function WhiteCard(props) {
               <span className='text-sm font-semibold text-gray-600'> Uniswap | SPA-USDs
                 </span>
               </span>
-              <a href="#" className="text-new-blue text-xs font-semibold flex items-center">
+              <a href="/" className="text-new-blue text-xs font-semibold flex items-center">
                 <img src="../../arrow-up-right.svg" alt="arrow" className='h-5 pr-2'/>
                 BUY</a>
             </div>
@@ -118,7 +118,7 @@ function WhiteCard(props) {
             <img src="../../camelot.png" alt="camelot" className='w-5'/>
               <span className='text-sm font-semibold text-gray-600'>Camelot | USDC-USDs</span>
               </span>
-              <a href="#" className="text-new-blue text-xs font-semibold flex items-center">
+              <a href="/" className="text-new-blue text-xs font-semibold flex items-center">
                 <img src="../../arrow-up-right.svg" alt="arrow" className='h-5 pr-2'/>
                 BUY</a>
             </div>
@@ -127,19 +127,19 @@ function WhiteCard(props) {
             <img src="../../camelot.png" alt="camelot" className='w-5'/>
               <span className='text-sm font-semibold text-gray-600'>Camelot | SPA-USDs</span>
               </span>
-              <a href="#" className="text-new-blue text-xs font-semibold flex items-center">
+              <a href="/" className="text-new-blue text-xs font-semibold flex items-center">
                 <img src="../../arrow-up-right.svg" alt="arrow" className='h-5 pr-2'/>
                 BUY</a>
             </div>
           </div>
         </div>
         <div className={`mb-4 ${selectedTab === 'Buy SPA' ? "hidden" : "inline-block"}`}>
-          <a href="#" className="text-new-blue text-sm font-semibold flex items-center underline underline-offset-4">Mint USDs
+          <a href="/" className="text-new-blue text-sm font-semibold flex items-center underline underline-offset-4">Mint USDs
           <img src="../../arrow-up-right.svg" alt="arrow" className='h-6 pl-1'/>
           </a>
         </div>
         <div className='flex justify-center items-center w-full'>
-          <a href="#" className="text-new-blue text-sm text-center underline underline-offset-4">More info on How to buy USDs</a>
+          <a href="/" className="text-new-blue text-sm text-center underline underline-offset-4">More info on How to buy USDs</a>
           <img src="../../arrow-up-right.svg" alt="arrow" className='h-6 pl-1'/>
         </div>
       </div>

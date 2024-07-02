@@ -17,13 +17,13 @@ function Navbar() {
                         <a href="">
                             <img src="../../discord.svg" alt="Discord Icon" className='hover:scale-110 transition duration-150'/>
                         </a>
-                        <a href="">
+                        <a href="/">
                             <img src="../../telegram.svg" alt="Telegram Icon" className='hover:scale-110 transition duration-150'/>
                         </a>
-                        <a href="">
+                        <a href="/">
                             <img src="../../twitter.svg" alt="Twitter Icon" className='hover:scale-110 transition duration-150'/>
                         </a>
-                        <a href="">
+                        <a href="/">
                             <img src="../../subStack.svg" alt="Substack Icon" className='hover:scale-110 transition duration-150'/>
                         </a>
                         <button className='w-36 bg-new-blue text-light rounded-full h-12 text-sm text-white hover:bg-cyan-700 hover:text-gray-300 hover:cursor-pointer'>Launch App</button>

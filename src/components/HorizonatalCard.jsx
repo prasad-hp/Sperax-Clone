@@ -8,11 +8,11 @@ function HorizonatalCard() {
             <h3 className='font-light text-lg py-5'>Stake SPA to receive protocol fees, share of USDs auto-yield and staking incentives</h3>
             <h3 className='font-light text-lg py-5'>The longer you stake, higher your reward rate and voting power</h3>
             <div className='flex items-center lg:justify-start justify-center space-x-8 py-3'>
-                <a href="" className='flex items-center space-x-1'>
+                <a href="/" className='flex items-center space-x-1'>
                     <p>Stake SPA</p>
                     <img src="../../uparrow.svg" alt="Up Arrow" />
                 </a>
-                <a href="" className='flex items-center space-x-1'>
+                <a href="/" className='flex items-center space-x-1'>
                     <p>Learn More</p>
                     <img src="../../uparrow.svg" alt="Up Arrow" />
                 </a>

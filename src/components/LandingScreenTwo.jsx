@@ -36,7 +36,7 @@ function LandingScreenTwo() {
         </section>
         <section className="flex flex-col justify-center items-center">
           <img src="../../screen2_banner.svg" alt="Banner" className="py-16" />
-          <a className="flex items-center hover:cursor-pointer">
+          <a className="flex items-center hover:cursor-pointer" href='/'>
             <p className="text-2xl text-cyan-400">See detailed Model</p>
             <img src="../../arrow-up-right.svg" alt="Up Arrow" />
           </a>

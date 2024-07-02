@@ -10,16 +10,16 @@ function Footer() {
                     <h1 className='text-xl font-semibold'>Sperax</h1>
                 </div>
                 <div className='flex space-x-5 items-center justify-start mt-5'>
-                    <a href="">
+                    <a href="/">
                         <img src="../../discord.svg" alt="Discord Icon" className='hover:scale-110 transition duration-150'/>
                     </a>
-                    <a href="">
+                    <a href="/">
                         <img src="../../telegram.svg" alt="Telegram Icon" className='hover:scale-110 transition duration-150'/>
                     </a>
-                    <a href="">
+                    <a href="/">
                         <img src="../../twitter.svg" alt="Twitter Icon" className='hover:scale-110 transition duration-150'/>
                     </a>
-                    <a href="">
+                    <a href="/">
                         <img src="../../subStack.svg" alt="Substack Icon" className='hover:scale-110 transition duration-150'/>
                     </a>
                 </div>

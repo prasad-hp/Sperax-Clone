@@ -6,11 +6,11 @@ function SquareCard(props) {
         <h1 className='text-4xl font-semibold'>{props.heading}</h1>
         <h3 className='font-light text-lg py-5'>{props.description}</h3>
         <div className='flex items-center space-x-8 py-3'>
-            <a href="" className='flex items-center space-x-1'>
+            <a href="/" className='flex items-center space-x-1'>
                 <p>{props.link1}</p>
                 <img src="../../uparrow.svg" alt="Up Arrow" />
             </a>
-            <a href="" className='flex items-center space-x-1'>
+            <a href="/" className='flex items-center space-x-1'>
                 <p>{props.link2}</p>
                 <img src="../../uparrow.svg" alt="Up Arrow" />
             </a>
