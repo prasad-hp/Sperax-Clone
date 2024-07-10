@@ -1,28 +1,43 @@
 import React, { useEffect, useState } from 'react';
 
 function WhiteCard(props) {
-  const [selectedTab, setSelectedTab] = useState('Buy SPA');
+  const [selectedTab, setSelectedTab] = useState(true);
   const [display, setDisplay] = useState(props.display);
+  const [left, setLeft] = useState("bg-white")
+  const [right, setRight] = useState("")
+
 
   useEffect(() => {
     setDisplay(!display);
   }, [props.display]);
 
+  function rightClicked(){
+    if(!selectedTab){
+      setLeft("bg-white translate-x-0 duration-500")
+      setRight("bg-none translate-x-0 duration-0")
+      setSelectedTab(true)
+    }else{
+      setLeft("bg-white translate-x-32 duration-500");
+      setRight("bg-none -translate-x-32");
+      setSelectedTab(false)
+    }
+  }
+
   return (
-    <div className={`p-4 transition duration-200 fixed top-10 bottom-0 right-0 left-0 m-auto bg-white rounded-md shadow-lg max-w-md  ${selectedTab === 'Buy SPA' ? 'h-[620px]' : 'h-[520px]'} mt-5 lg:w-2/4 mx-auto z-30 ${display ? "inline-block" : "hidden"} overflow-y-auto no-scrollbar`}>
+    <div className={`p-4 transition duration-200 fixed top-10 bottom-0 right-0 left-0 m-auto bg-white rounded-md shadow-lg max-w-md  ${selectedTab ? 'h-[620px]' : 'h-[520px]'} mt-5 lg:w-2/4 mx-auto z-30 ${display ? "inline-block" : "hidden"} overflow-y-auto no-scrollbar`}>
         <div className='w-full flex justify-end'>
           <button className='' onClick={() => setDisplay(!display)}> <img src="../../close.svg" alt="Close" /> </button>
         </div>
         <div className="flex items-center sm:h-8 h-16 justify-between space-x-2 bg-gray-200 rounded-full p-1 w-3/5 mx-auto">
         <button 
-            className={`px-5 py-2 w-1/2 sm:h-7 h-14 flex items-center rounded-full transition-transform duration-500 ${selectedTab === 'Buy SPA' ? 'bg-white shadow' : 'text-gray-600'}`}
-            onClick={() => setSelectedTab('Buy SPA')}>
-            Buy SPA
+            className={`px-5 py-2 w-1/2 sm:h-7 h-14 flex items-center rounded-full ${left}`}
+            >
+            {selectedTab ? "Buy SPA" : "Buy USDs"}
         </button>
         <button 
-            className={`px-5 py-2 w-1/2 sm:h-7 h-14 flex items-center rounded-full transition-transform duration-500 ${selectedTab === 'Buy USDs' ? 'bg-white shadow' : 'text-gray-600'}`}
-            onClick={() => setSelectedTab('Buy USDs')}>
-            Buy USDs
+            className={`px-5 py-2 w-1/2 sm:h-7 h-14 flex items-center rounded-full ${right}`}
+            onClick={() => rightClicked()}>
+            {selectedTab ? "Buy USDs" : "Buy SPA"}
         </button>
         </div>
       <div>
@@ -49,7 +64,7 @@ function WhiteCard(props) {
             </div>
           </div>
         </div>
-        <div className={`mb-4 w-full ${selectedTab === 'Buy SPA' ? "inline-block" : "hidden" }`}>
+        <div className={`mb-4 w-full ${selectedTab ? "inline-block" : "hidden" }`}>
           <h2 className="font-semibold text-sm py-5">Centralised Exchange</h2>
           <div className="flex flex-col space-y-2 border rounded-xl">
             <div className="flex justify-between items-center p-2 px-4 ">
@@ -133,7 +148,7 @@ function WhiteCard(props) {
             </div>
           </div>
         </div>
-        <div className={`mb-4 ${selectedTab === 'Buy SPA' ? "hidden" : "inline-block"}`}>
+        <div className={`mb-4 ${selectedTab ? "hidden" : "inline-block"}`}>
           <a href="/" className="text-new-blue text-sm font-semibold flex items-center underline underline-offset-4">Mint USDs
           <img src="../../arrow-up-right.svg" alt="arrow" className='h-6 pl-1'/>
           </a>
